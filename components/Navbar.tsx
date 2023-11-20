@@ -24,7 +24,7 @@ function Navbar() {
 
       </ul>
 
-      <div>
+      <div className='lg:flexCenter hidden'>
         <Button
         type="button"
         title="Login"
