@@ -3,6 +3,10 @@ import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
+import Camp from '@/components/Camp';
+import Guide from '@/components/Guide';
+import Feature from '@/components/Feature';
+import GetApp from '@/components/GetApp';
 
 
 export const metadata: Metadata = {
@@ -24,7 +28,11 @@ export default function RootLayout({
 
         </main>
         <Hero/>
+        <Camp/>
+        <Guide/>
+        <Feature/>
         <Footer/>
+        <GetApp/>
         </body>
     </html>
   )
