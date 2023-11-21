@@ -30,7 +30,14 @@ const Hero = () => {
 
               />
             ))}
+
           </div>
+          <p className="bold-16 lg:bold-20 text-blue-70">
+            198k
+            <span className="regular-16 lg:regular-20 ml-1 underline">
+              Excellent
+            </span>
+          </p>
         </div>
       </div>
 
