@@ -1,4 +1,10 @@
-const CampSite = ({backgroundImage,title,subtitle,peopleJoined}) => {
+interface  CampProps {
+  backgroundImage:string;
+  title:string;
+  subtitle:string;
+  peopleJoined:string;
+}
+const CampSite = ({backgroundImage,title,subtitle,peopleJoined}:CampProps) => {
   return(
     <div>Camp Site 1</div>
   )
