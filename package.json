@@ -1,25 +1,30 @@
 {
+  "homepage": "https://SanaUllahRasheed123.github.io/app_travel",
   "name": "app_travel",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
+    "next": "14.0.2",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.2"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "autoprefixer": "^10.0.1",
+    "gh-pages": "^6.1.1",
     "postcss": "^8",
-    "tailwindcss": "^3.3.0"
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }
